@@ -1,0 +1,54 @@
+/* selectores  de tipo */
+header {
+background-color: darkmagenta;
+color: black;
+text-align: center;
+padding: 20 px;
+
+}
+
+footer {
+    background-color: darkmagenta;
+    color: black;
+    text-align: center;
+    padding: 20 px;
+
+}
+
+/*  selectores de clase */
+.contadores {
+    color:blue
+}
+
+/* selector de id */
+#reset-button {
+    font-size: 20 px;
+    color: red;
+    padding: 10px 20px; 
+    border: 2px solid black; 
+    width: 150px; 
+    height: 50px; 
+    
+}
+
+[name]{
+    width: 160%;
+    height: 70px;
+    margin-top: 20%;
+    display: block;
+    
+}
+
+[class ="contadores"] {
+    background-color: aqua;
+
+
+}
+.contadores{
+    background-color: pink;
+    margin: 8%;
+    padding: 2%;
+    border: 1cm;
+}
+
+
