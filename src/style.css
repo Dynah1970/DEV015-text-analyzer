@@ -1,54 +1,71 @@
-/* selectores  de tipo */
+/* selectores de tipo */
 header {
-background-color: darkmagenta;
-color: black;
-text-align: center;
-padding: 20 px;
+  background-color: beige;
+  padding: 10px 0;
+  text-align: center;
+
 
 }
 
 footer {
-    background-color: darkmagenta;
-    color: black;
-    text-align: center;
-    padding: 20 px;
-
+  text-align: right;
+  width: 200px px;
+  margin: 0 0 0 20 px;
+  color: blue;
 }
 
-/*  selectores de clase */
+body {
+  background-image: url(https://img.freepik.com/fotos-premium/computadora-libros-libro-sobre-mesa_662214-66113.jpg?w=996);
+}
+header h1 {
+  font-family: "Arial Black", sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid pink;
+  border-radius: 25px; /* Borde ovalado */
+  box-shadow: 0 0 0 5px pink, 0 0 0 10px purple; /* Doble margen en dos colores */
+}
+
+textarea[name="user-input"] {
+  width: 50%;
+  height: 50px; /* Hacer el cuadro de texto más pequeño */
+  margin: 40px 0; /* Doble margen */
+  border: 2px solid pink; /* Borde color rosa */
+  border-radius: 25px; /* Borde ovalado */
+  padding: 10px;
+  box-shadow: 0 0 0 5px pink, 0 0 0 10px purple; /* Doble margen en dos colores */
+  font-family: 'Arial black', sans-serif; /* Fuente del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+  text-align: center; /* Centrar texto horizontalmente */
+  line-height: 50px; /* Centrar texto verticalmente */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .contadores {
-    color:blue
+  font-size: 1.5em;
+  width: 50%;
+  background-color: #e9ecef;
+  border: 2px solid pink;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 25px; /* Borde ovalado */
+  box-shadow: 0 0 0 5px pink, 0 0 0 10px purple; /* Doble margen en dos colores */
 }
 
-/* selector de id */
 #reset-button {
-    font-size: 20 px;
-    color: red;
-    padding: 10px 20px; 
-    border: 2px solid black; 
-    width: 150px; 
-    height: 50px; 
-    
+  background-color: purple; /* Cambiar color a púrpura */
+  color: white;
+  border: none;
+  padding: 20px; /* Hacer el botón más grande */
+  border-radius: 25px; /* Borde ovalado */
+  box-shadow: 0 0 0 5px lightblue, 0 0 0 10px darkblue; /* Doble margen en azul claro y oscuro */
+  font-family: "Arial Black", sans-serif; /* Fuente Arial Black */
+  font-size: 1.2em; /* Tamaño de fuente más grande */
+  cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+  float: center; /* Posicionar el botón a la derecha*/
+  margin: 20px; /* Añadir margen para separarlo de otros elementos */
 }
-
-[name]{
-    width: 160%;
-    height: 70px;
-    margin-top: 20%;
-    display: block;
-    
-}
-
-[class ="contadores"] {
-    background-color: aqua;
-
-
-}
-.contadores{
-    background-color: pink;
-    margin: 8%;
-    padding: 2%;
-    border: 1cm;
-}
-
-
